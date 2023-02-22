@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: url('../img/header.png') no-repeat center center;
+    height: 240px;
+    width: 100%;
+    margin: 100px 0;
+
+}
+
+body {
+    background: url('../img/bodybg.jpeg') no-repeat center center;
+    background-size: cover;
+    /*overflow: hidden;*/
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
+
+#palya {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: url('../img/bg.webp');
+}
+
+.sor {
+    display: flex;
+
+}
+
+.cella {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: url('../img/fa.webp');
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.ures {
+    background: none;
+}
+
+@keyframes bal {
+    0% {left: 0px;}
+    100% {left: -200px;}
+}
+
+.bal {
+    animation-name: bal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes jobb {
+    0% {left: 0px;}
+    100% {left: 200px;}
+}
+
+.jobb {
+    animation-name: jobb;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fel {
+    0% {top: 0px;}
+    100% {top: -200px;}
+}
+
+.fel {
+    animation-name: fel;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes le {
+    0% {top: 0px;}
+    100% {top: 200px;}
+}
+
+.le {
+    animation-name: le;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.jo {
+    color: green;
+}
